@@ -1,0 +1,824 @@
+== Source Information ==
+
+These frames were extracted from [[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4]] using [https://videotojpg.com videotojpg.com].
+
+=== Suggested {{Information}} template ===
+
+<nowiki>
+{{Information
+|description=Frame extracted from [[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4]]
+|source={{Extracted from|Car_commercial_continuous_camera…_f5d16219_1080p.mp4}}
+|date={{According to Exif data}}
+|author=
+|permission=
+|other versions=
+}}
+</nowiki>
+
+=== Extracted frames ===
+
+* [[File:img_00001.jpg]] - frame at 0s
+* [[File:img_00002.jpg]] - frame at 0s20ms
+* [[File:img_00003.jpg]] - frame at 0s40ms
+* [[File:img_00004.jpg]] - frame at 0s60ms
+* [[File:img_00005.jpg]] - frame at 0s80ms
+* [[File:img_00006.jpg]] - frame at 0s100ms
+* [[File:img_00007.jpg]] - frame at 0s120ms
+* [[File:img_00008.jpg]] - frame at 0s140ms
+* [[File:img_00009.jpg]] - frame at 0s160ms
+* [[File:img_00010.jpg]] - frame at 0s180ms
+* [[File:img_00011.jpg]] - frame at 0s200ms
+* [[File:img_00012.jpg]] - frame at 0s220ms
+* [[File:img_00013.jpg]] - frame at 0s240ms
+* [[File:img_00014.jpg]] - frame at 0s259ms
+* [[File:img_00015.jpg]] - frame at 0s279ms
+* [[File:img_00016.jpg]] - frame at 0s299ms
+* [[File:img_00017.jpg]] - frame at 0s319ms
+* [[File:img_00018.jpg]] - frame at 0s339ms
+* [[File:img_00019.jpg]] - frame at 0s359ms
+* [[File:img_00020.jpg]] - frame at 0s379ms
+* [[File:img_00021.jpg]] - frame at 0s399ms
+* [[File:img_00022.jpg]] - frame at 0s419ms
+* [[File:img_00023.jpg]] - frame at 0s439ms
+* [[File:img_00024.jpg]] - frame at 0s459ms
+* [[File:img_00025.jpg]] - frame at 0s479ms
+* [[File:img_00026.jpg]] - frame at 0s499ms
+* [[File:img_00027.jpg]] - frame at 0s519ms
+* [[File:img_00028.jpg]] - frame at 0s539ms
+* [[File:img_00029.jpg]] - frame at 0s559ms
+* [[File:img_00030.jpg]] - frame at 0s579ms
+* [[File:img_00031.jpg]] - frame at 0s599ms
+* [[File:img_00032.jpg]] - frame at 0s619ms
+* [[File:img_00033.jpg]] - frame at 0s639ms
+* [[File:img_00034.jpg]] - frame at 0s659ms
+* [[File:img_00035.jpg]] - frame at 0s679ms
+* [[File:img_00036.jpg]] - frame at 0s699ms
+* [[File:img_00037.jpg]] - frame at 0s719ms
+* [[File:img_00038.jpg]] - frame at 0s739ms
+* [[File:img_00039.jpg]] - frame at 0s758ms
+* [[File:img_00040.jpg]] - frame at 0s778ms
+* [[File:img_00041.jpg]] - frame at 0s798ms
+* [[File:img_00042.jpg]] - frame at 0s818ms
+* [[File:img_00043.jpg]] - frame at 0s838ms
+* [[File:img_00044.jpg]] - frame at 0s858ms
+* [[File:img_00045.jpg]] - frame at 0s878ms
+* [[File:img_00046.jpg]] - frame at 0s898ms
+* [[File:img_00047.jpg]] - frame at 0s918ms
+* [[File:img_00048.jpg]] - frame at 0s938ms
+* [[File:img_00049.jpg]] - frame at 0s958ms
+* [[File:img_00050.jpg]] - frame at 0s978ms
+* [[File:img_00051.jpg]] - frame at 0s998ms
+* [[File:img_00052.jpg]] - frame at 1s18ms
+* [[File:img_00053.jpg]] - frame at 1s38ms
+* [[File:img_00054.jpg]] - frame at 1s58ms
+* [[File:img_00055.jpg]] - frame at 1s78ms
+* [[File:img_00056.jpg]] - frame at 1s98ms
+* [[File:img_00057.jpg]] - frame at 1s118ms
+* [[File:img_00058.jpg]] - frame at 1s138ms
+* [[File:img_00059.jpg]] - frame at 1s158ms
+* [[File:img_00060.jpg]] - frame at 1s178ms
+* [[File:img_00061.jpg]] - frame at 1s198ms
+* [[File:img_00062.jpg]] - frame at 1s218ms
+* [[File:img_00063.jpg]] - frame at 1s238ms
+* [[File:img_00064.jpg]] - frame at 1s257ms
+* [[File:img_00065.jpg]] - frame at 1s277ms
+* [[File:img_00066.jpg]] - frame at 1s297ms
+* [[File:img_00067.jpg]] - frame at 1s317ms
+* [[File:img_00068.jpg]] - frame at 1s337ms
+* [[File:img_00069.jpg]] - frame at 1s357ms
+* [[File:img_00070.jpg]] - frame at 1s377ms
+* [[File:img_00071.jpg]] - frame at 1s397ms
+* [[File:img_00072.jpg]] - frame at 1s417ms
+* [[File:img_00073.jpg]] - frame at 1s437ms
+* [[File:img_00074.jpg]] - frame at 1s457ms
+* [[File:img_00075.jpg]] - frame at 1s477ms
+* [[File:img_00076.jpg]] - frame at 1s497ms
+* [[File:img_00077.jpg]] - frame at 1s517ms
+* [[File:img_00078.jpg]] - frame at 1s537ms
+* [[File:img_00079.jpg]] - frame at 1s557ms
+* [[File:img_00080.jpg]] - frame at 1s577ms
+* [[File:img_00081.jpg]] - frame at 1s597ms
+* [[File:img_00082.jpg]] - frame at 1s617ms
+* [[File:img_00083.jpg]] - frame at 1s637ms
+* [[File:img_00084.jpg]] - frame at 1s657ms
+* [[File:img_00085.jpg]] - frame at 1s677ms
+* [[File:img_00086.jpg]] - frame at 1s697ms
+* [[File:img_00087.jpg]] - frame at 1s717ms
+* [[File:img_00088.jpg]] - frame at 1s737ms
+* [[File:img_00089.jpg]] - frame at 1s756ms
+* [[File:img_00090.jpg]] - frame at 1s776ms
+* [[File:img_00091.jpg]] - frame at 1s796ms
+* [[File:img_00092.jpg]] - frame at 1s816ms
+* [[File:img_00093.jpg]] - frame at 1s836ms
+* [[File:img_00094.jpg]] - frame at 1s856ms
+* [[File:img_00095.jpg]] - frame at 1s876ms
+* [[File:img_00096.jpg]] - frame at 1s896ms
+* [[File:img_00097.jpg]] - frame at 1s916ms
+* [[File:img_00098.jpg]] - frame at 1s936ms
+* [[File:img_00099.jpg]] - frame at 1s956ms
+* [[File:img_00100.jpg]] - frame at 1s976ms
+* [[File:img_00101.jpg]] - frame at 1s996ms
+* [[File:img_00102.jpg]] - frame at 2s16ms
+* [[File:img_00103.jpg]] - frame at 2s36ms
+* [[File:img_00104.jpg]] - frame at 2s56ms
+* [[File:img_00105.jpg]] - frame at 2s76ms
+* [[File:img_00106.jpg]] - frame at 2s96ms
+* [[File:img_00107.jpg]] - frame at 2s116ms
+* [[File:img_00108.jpg]] - frame at 2s136ms
+* [[File:img_00109.jpg]] - frame at 2s156ms
+* [[File:img_00110.jpg]] - frame at 2s176ms
+* [[File:img_00111.jpg]] - frame at 2s196ms
+* [[File:img_00112.jpg]] - frame at 2s216ms
+* [[File:img_00113.jpg]] - frame at 2s236ms
+* [[File:img_00114.jpg]] - frame at 2s255ms
+* [[File:img_00115.jpg]] - frame at 2s275ms
+* [[File:img_00116.jpg]] - frame at 2s295ms
+* [[File:img_00117.jpg]] - frame at 2s315ms
+* [[File:img_00118.jpg]] - frame at 2s335ms
+* [[File:img_00119.jpg]] - frame at 2s355ms
+* [[File:img_00120.jpg]] - frame at 2s375ms
+* [[File:img_00121.jpg]] - frame at 2s395ms
+* [[File:img_00122.jpg]] - frame at 2s415ms
+* [[File:img_00123.jpg]] - frame at 2s435ms
+* [[File:img_00124.jpg]] - frame at 2s455ms
+* [[File:img_00125.jpg]] - frame at 2s475ms
+* [[File:img_00126.jpg]] - frame at 2s495ms
+* [[File:img_00127.jpg]] - frame at 2s515ms
+* [[File:img_00128.jpg]] - frame at 2s535ms
+* [[File:img_00129.jpg]] - frame at 2s555ms
+* [[File:img_00130.jpg]] - frame at 2s575ms
+* [[File:img_00131.jpg]] - frame at 2s595ms
+* [[File:img_00132.jpg]] - frame at 2s615ms
+* [[File:img_00133.jpg]] - frame at 2s635ms
+* [[File:img_00134.jpg]] - frame at 2s655ms
+* [[File:img_00135.jpg]] - frame at 2s675ms
+* [[File:img_00136.jpg]] - frame at 2s695ms
+* [[File:img_00137.jpg]] - frame at 2s715ms
+* [[File:img_00138.jpg]] - frame at 2s735ms
+* [[File:img_00139.jpg]] - frame at 2s754ms
+* [[File:img_00140.jpg]] - frame at 2s774ms
+* [[File:img_00141.jpg]] - frame at 2s794ms
+* [[File:img_00142.jpg]] - frame at 2s814ms
+* [[File:img_00143.jpg]] - frame at 2s834ms
+* [[File:img_00144.jpg]] - frame at 2s854ms
+* [[File:img_00145.jpg]] - frame at 2s874ms
+* [[File:img_00146.jpg]] - frame at 2s894ms
+* [[File:img_00147.jpg]] - frame at 2s914ms
+* [[File:img_00148.jpg]] - frame at 2s934ms
+* [[File:img_00149.jpg]] - frame at 2s954ms
+* [[File:img_00150.jpg]] - frame at 2s974ms
+* [[File:img_00151.jpg]] - frame at 2s994ms
+* [[File:img_00152.jpg]] - frame at 3s14ms
+* [[File:img_00153.jpg]] - frame at 3s34ms
+* [[File:img_00154.jpg]] - frame at 3s54ms
+* [[File:img_00155.jpg]] - frame at 3s74ms
+* [[File:img_00156.jpg]] - frame at 3s94ms
+* [[File:img_00157.jpg]] - frame at 3s114ms
+* [[File:img_00158.jpg]] - frame at 3s134ms
+* [[File:img_00159.jpg]] - frame at 3s154ms
+* [[File:img_00160.jpg]] - frame at 3s174ms
+* [[File:img_00161.jpg]] - frame at 3s194ms
+* [[File:img_00162.jpg]] - frame at 3s214ms
+* [[File:img_00163.jpg]] - frame at 3s234ms
+* [[File:img_00164.jpg]] - frame at 3s253ms
+* [[File:img_00165.jpg]] - frame at 3s273ms
+* [[File:img_00166.jpg]] - frame at 3s293ms
+* [[File:img_00167.jpg]] - frame at 3s313ms
+* [[File:img_00168.jpg]] - frame at 3s333ms
+* [[File:img_00169.jpg]] - frame at 3s353ms
+* [[File:img_00170.jpg]] - frame at 3s373ms
+* [[File:img_00171.jpg]] - frame at 3s393ms
+* [[File:img_00172.jpg]] - frame at 3s413ms
+* [[File:img_00173.jpg]] - frame at 3s433ms
+* [[File:img_00174.jpg]] - frame at 3s453ms
+* [[File:img_00175.jpg]] - frame at 3s473ms
+* [[File:img_00176.jpg]] - frame at 3s493ms
+* [[File:img_00177.jpg]] - frame at 3s513ms
+* [[File:img_00178.jpg]] - frame at 3s533ms
+* [[File:img_00179.jpg]] - frame at 3s553ms
+* [[File:img_00180.jpg]] - frame at 3s573ms
+* [[File:img_00181.jpg]] - frame at 3s593ms
+* [[File:img_00182.jpg]] - frame at 3s613ms
+* [[File:img_00183.jpg]] - frame at 3s633ms
+* [[File:img_00184.jpg]] - frame at 3s653ms
+* [[File:img_00185.jpg]] - frame at 3s673ms
+* [[File:img_00186.jpg]] - frame at 3s693ms
+* [[File:img_00187.jpg]] - frame at 3s713ms
+* [[File:img_00188.jpg]] - frame at 3s733ms
+* [[File:img_00189.jpg]] - frame at 3s752ms
+* [[File:img_00190.jpg]] - frame at 3s772ms
+* [[File:img_00191.jpg]] - frame at 3s792ms
+* [[File:img_00192.jpg]] - frame at 3s812ms
+* [[File:img_00193.jpg]] - frame at 3s832ms
+* [[File:img_00194.jpg]] - frame at 3s852ms
+* [[File:img_00195.jpg]] - frame at 3s872ms
+* [[File:img_00196.jpg]] - frame at 3s892ms
+* [[File:img_00197.jpg]] - frame at 3s912ms
+* [[File:img_00198.jpg]] - frame at 3s932ms
+* [[File:img_00199.jpg]] - frame at 3s952ms
+* [[File:img_00200.jpg]] - frame at 3s972ms
+* [[File:img_00201.jpg]] - frame at 3s992ms
+* [[File:img_00202.jpg]] - frame at 4s12ms
+* [[File:img_00203.jpg]] - frame at 4s32ms
+* [[File:img_00204.jpg]] - frame at 4s52ms
+* [[File:img_00205.jpg]] - frame at 4s72ms
+* [[File:img_00206.jpg]] - frame at 4s92ms
+* [[File:img_00207.jpg]] - frame at 4s112ms
+* [[File:img_00208.jpg]] - frame at 4s132ms
+* [[File:img_00209.jpg]] - frame at 4s152ms
+* [[File:img_00210.jpg]] - frame at 4s172ms
+* [[File:img_00211.jpg]] - frame at 4s192ms
+* [[File:img_00212.jpg]] - frame at 4s212ms
+* [[File:img_00213.jpg]] - frame at 4s232ms
+* [[File:img_00214.jpg]] - frame at 4s251ms
+* [[File:img_00215.jpg]] - frame at 4s271ms
+* [[File:img_00216.jpg]] - frame at 4s291ms
+* [[File:img_00217.jpg]] - frame at 4s311ms
+* [[File:img_00218.jpg]] - frame at 4s331ms
+* [[File:img_00219.jpg]] - frame at 4s351ms
+* [[File:img_00220.jpg]] - frame at 4s371ms
+* [[File:img_00221.jpg]] - frame at 4s391ms
+* [[File:img_00222.jpg]] - frame at 4s411ms
+* [[File:img_00223.jpg]] - frame at 4s431ms
+* [[File:img_00224.jpg]] - frame at 4s451ms
+* [[File:img_00225.jpg]] - frame at 4s471ms
+* [[File:img_00226.jpg]] - frame at 4s491ms
+* [[File:img_00227.jpg]] - frame at 4s511ms
+* [[File:img_00228.jpg]] - frame at 4s531ms
+* [[File:img_00229.jpg]] - frame at 4s551ms
+* [[File:img_00230.jpg]] - frame at 4s571ms
+* [[File:img_00231.jpg]] - frame at 4s591ms
+* [[File:img_00232.jpg]] - frame at 4s611ms
+* [[File:img_00233.jpg]] - frame at 4s631ms
+* [[File:img_00234.jpg]] - frame at 4s651ms
+* [[File:img_00235.jpg]] - frame at 4s671ms
+* [[File:img_00236.jpg]] - frame at 4s691ms
+* [[File:img_00237.jpg]] - frame at 4s711ms
+* [[File:img_00238.jpg]] - frame at 4s731ms
+* [[File:img_00239.jpg]] - frame at 4s750ms
+* [[File:img_00240.jpg]] - frame at 4s770ms
+* [[File:img_00241.jpg]] - frame at 4s790ms
+* [[File:img_00242.jpg]] - frame at 4s810ms
+* [[File:img_00243.jpg]] - frame at 4s830ms
+* [[File:img_00244.jpg]] - frame at 4s850ms
+* [[File:img_00245.jpg]] - frame at 4s870ms
+* [[File:img_00246.jpg]] - frame at 4s890ms
+* [[File:img_00247.jpg]] - frame at 4s910ms
+* [[File:img_00248.jpg]] - frame at 4s930ms
+* [[File:img_00249.jpg]] - frame at 4s950ms
+* [[File:img_00250.jpg]] - frame at 4s970ms
+* [[File:img_00251.jpg]] - frame at 4s990ms
+* [[File:img_00252.jpg]] - frame at 5s10ms
+* [[File:img_00253.jpg]] - frame at 5s30ms
+* [[File:img_00254.jpg]] - frame at 5s50ms
+* [[File:img_00255.jpg]] - frame at 5s70ms
+* [[File:img_00256.jpg]] - frame at 5s90ms
+* [[File:img_00257.jpg]] - frame at 5s110ms
+* [[File:img_00258.jpg]] - frame at 5s130ms
+* [[File:img_00259.jpg]] - frame at 5s150ms
+* [[File:img_00260.jpg]] - frame at 5s170ms
+* [[File:img_00261.jpg]] - frame at 5s190ms
+* [[File:img_00262.jpg]] - frame at 5s210ms
+* [[File:img_00263.jpg]] - frame at 5s230ms
+* [[File:img_00264.jpg]] - frame at 5s250ms
+* [[File:img_00265.jpg]] - frame at 5s269ms
+* [[File:img_00266.jpg]] - frame at 5s289ms
+* [[File:img_00267.jpg]] - frame at 5s309ms
+* [[File:img_00268.jpg]] - frame at 5s329ms
+* [[File:img_00269.jpg]] - frame at 5s349ms
+* [[File:img_00270.jpg]] - frame at 5s369ms
+* [[File:img_00271.jpg]] - frame at 5s389ms
+* [[File:img_00272.jpg]] - frame at 5s409ms
+* [[File:img_00273.jpg]] - frame at 5s429ms
+* [[File:img_00274.jpg]] - frame at 5s449ms
+* [[File:img_00275.jpg]] - frame at 5s469ms
+* [[File:img_00276.jpg]] - frame at 5s489ms
+* [[File:img_00277.jpg]] - frame at 5s509ms
+* [[File:img_00278.jpg]] - frame at 5s529ms
+* [[File:img_00279.jpg]] - frame at 5s549ms
+* [[File:img_00280.jpg]] - frame at 5s569ms
+* [[File:img_00281.jpg]] - frame at 5s589ms
+* [[File:img_00282.jpg]] - frame at 5s609ms
+* [[File:img_00283.jpg]] - frame at 5s629ms
+* [[File:img_00284.jpg]] - frame at 5s649ms
+* [[File:img_00285.jpg]] - frame at 5s669ms
+* [[File:img_00286.jpg]] - frame at 5s689ms
+* [[File:img_00287.jpg]] - frame at 5s709ms
+* [[File:img_00288.jpg]] - frame at 5s729ms
+* [[File:img_00289.jpg]] - frame at 5s749ms
+* [[File:img_00290.jpg]] - frame at 5s768ms
+* [[File:img_00291.jpg]] - frame at 5s788ms
+* [[File:img_00292.jpg]] - frame at 5s808ms
+* [[File:img_00293.jpg]] - frame at 5s828ms
+* [[File:img_00294.jpg]] - frame at 5s848ms
+* [[File:img_00295.jpg]] - frame at 5s868ms
+* [[File:img_00296.jpg]] - frame at 5s888ms
+* [[File:img_00297.jpg]] - frame at 5s908ms
+* [[File:img_00298.jpg]] - frame at 5s928ms
+* [[File:img_00299.jpg]] - frame at 5s948ms
+* [[File:img_00300.jpg]] - frame at 5s968ms
+* [[File:img_00301.jpg]] - frame at 5s988ms
+* [[File:img_00302.jpg]] - frame at 6s8ms
+* [[File:img_00303.jpg]] - frame at 6s28ms
+* [[File:img_00304.jpg]] - frame at 6s48ms
+* [[File:img_00305.jpg]] - frame at 6s68ms
+* [[File:img_00306.jpg]] - frame at 6s88ms
+* [[File:img_00307.jpg]] - frame at 6s108ms
+* [[File:img_00308.jpg]] - frame at 6s128ms
+* [[File:img_00309.jpg]] - frame at 6s148ms
+* [[File:img_00310.jpg]] - frame at 6s168ms
+* [[File:img_00311.jpg]] - frame at 6s188ms
+* [[File:img_00312.jpg]] - frame at 6s208ms
+* [[File:img_00313.jpg]] - frame at 6s228ms
+* [[File:img_00314.jpg]] - frame at 6s248ms
+* [[File:img_00315.jpg]] - frame at 6s267ms
+* [[File:img_00316.jpg]] - frame at 6s287ms
+* [[File:img_00317.jpg]] - frame at 6s307ms
+* [[File:img_00318.jpg]] - frame at 6s327ms
+* [[File:img_00319.jpg]] - frame at 6s347ms
+* [[File:img_00320.jpg]] - frame at 6s367ms
+* [[File:img_00321.jpg]] - frame at 6s387ms
+* [[File:img_00322.jpg]] - frame at 6s407ms
+* [[File:img_00323.jpg]] - frame at 6s427ms
+* [[File:img_00324.jpg]] - frame at 6s447ms
+* [[File:img_00325.jpg]] - frame at 6s467ms
+* [[File:img_00326.jpg]] - frame at 6s487ms
+* [[File:img_00327.jpg]] - frame at 6s507ms
+* [[File:img_00328.jpg]] - frame at 6s527ms
+* [[File:img_00329.jpg]] - frame at 6s547ms
+* [[File:img_00330.jpg]] - frame at 6s567ms
+* [[File:img_00331.jpg]] - frame at 6s587ms
+* [[File:img_00332.jpg]] - frame at 6s607ms
+* [[File:img_00333.jpg]] - frame at 6s627ms
+* [[File:img_00334.jpg]] - frame at 6s647ms
+* [[File:img_00335.jpg]] - frame at 6s667ms
+* [[File:img_00336.jpg]] - frame at 6s687ms
+* [[File:img_00337.jpg]] - frame at 6s707ms
+* [[File:img_00338.jpg]] - frame at 6s727ms
+* [[File:img_00339.jpg]] - frame at 6s747ms
+* [[File:img_00340.jpg]] - frame at 6s766ms
+* [[File:img_00341.jpg]] - frame at 6s786ms
+* [[File:img_00342.jpg]] - frame at 6s806ms
+* [[File:img_00343.jpg]] - frame at 6s826ms
+* [[File:img_00344.jpg]] - frame at 6s846ms
+* [[File:img_00345.jpg]] - frame at 6s866ms
+* [[File:img_00346.jpg]] - frame at 6s886ms
+* [[File:img_00347.jpg]] - frame at 6s906ms
+* [[File:img_00348.jpg]] - frame at 6s926ms
+* [[File:img_00349.jpg]] - frame at 6s946ms
+* [[File:img_00350.jpg]] - frame at 6s966ms
+* [[File:img_00351.jpg]] - frame at 6s986ms
+* [[File:img_00352.jpg]] - frame at 7s6ms
+* [[File:img_00353.jpg]] - frame at 7s26ms
+* [[File:img_00354.jpg]] - frame at 7s46ms
+* [[File:img_00355.jpg]] - frame at 7s66ms
+* [[File:img_00356.jpg]] - frame at 7s86ms
+* [[File:img_00357.jpg]] - frame at 7s106ms
+* [[File:img_00358.jpg]] - frame at 7s126ms
+* [[File:img_00359.jpg]] - frame at 7s146ms
+* [[File:img_00360.jpg]] - frame at 7s166ms
+* [[File:img_00361.jpg]] - frame at 7s186ms
+* [[File:img_00362.jpg]] - frame at 7s206ms
+* [[File:img_00363.jpg]] - frame at 7s226ms
+* [[File:img_00364.jpg]] - frame at 7s246ms
+* [[File:img_00365.jpg]] - frame at 7s265ms
+* [[File:img_00366.jpg]] - frame at 7s285ms
+* [[File:img_00367.jpg]] - frame at 7s305ms
+* [[File:img_00368.jpg]] - frame at 7s325ms
+* [[File:img_00369.jpg]] - frame at 7s345ms
+* [[File:img_00370.jpg]] - frame at 7s365ms
+* [[File:img_00371.jpg]] - frame at 7s385ms
+* [[File:img_00372.jpg]] - frame at 7s405ms
+* [[File:img_00373.jpg]] - frame at 7s425ms
+* [[File:img_00374.jpg]] - frame at 7s445ms
+* [[File:img_00375.jpg]] - frame at 7s465ms
+* [[File:img_00376.jpg]] - frame at 7s485ms
+* [[File:img_00377.jpg]] - frame at 7s505ms
+* [[File:img_00378.jpg]] - frame at 7s525ms
+* [[File:img_00379.jpg]] - frame at 7s545ms
+* [[File:img_00380.jpg]] - frame at 7s565ms
+* [[File:img_00381.jpg]] - frame at 7s585ms
+* [[File:img_00382.jpg]] - frame at 7s605ms
+* [[File:img_00383.jpg]] - frame at 7s625ms
+* [[File:img_00384.jpg]] - frame at 7s645ms
+* [[File:img_00385.jpg]] - frame at 7s665ms
+* [[File:img_00386.jpg]] - frame at 7s685ms
+* [[File:img_00387.jpg]] - frame at 7s705ms
+* [[File:img_00388.jpg]] - frame at 7s725ms
+* [[File:img_00389.jpg]] - frame at 7s745ms
+* [[File:img_00390.jpg]] - frame at 7s764ms
+* [[File:img_00391.jpg]] - frame at 7s784ms
+* [[File:img_00392.jpg]] - frame at 7s804ms
+* [[File:img_00393.jpg]] - frame at 7s824ms
+* [[File:img_00394.jpg]] - frame at 7s844ms
+* [[File:img_00395.jpg]] - frame at 7s864ms
+* [[File:img_00396.jpg]] - frame at 7s884ms
+* [[File:img_00397.jpg]] - frame at 7s904ms
+* [[File:img_00398.jpg]] - frame at 7s924ms
+* [[File:img_00399.jpg]] - frame at 7s944ms
+* [[File:img_00400.jpg]] - frame at 7s964ms
+* [[File:img_00401.jpg]] - frame at 7s984ms
+
+=== Copy-paste source lines ===
+
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s20ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s40ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s60ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s80ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s100ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s120ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s140ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s160ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s180ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s200ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s220ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s240ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s259ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s279ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s299ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s319ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s339ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s359ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s379ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s399ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s419ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s439ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s459ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s479ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s499ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s519ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s539ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s559ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s579ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s599ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s619ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s639ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s659ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s679ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s699ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s719ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s739ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s758ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s778ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s798ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s818ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s838ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s858ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s878ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s898ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s918ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s938ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s958ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s978ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 0s998ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s18ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s38ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s58ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s78ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s98ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s118ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s138ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s158ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s178ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s198ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s218ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s238ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s257ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s277ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s297ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s317ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s337ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s357ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s377ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s397ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s417ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s437ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s457ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s477ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s497ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s517ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s537ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s557ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s577ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s597ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s617ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s637ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s657ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s677ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s697ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s717ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s737ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s756ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s776ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s796ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s816ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s836ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s856ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s876ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s896ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s916ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s936ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s956ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s976ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 1s996ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s16ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s36ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s56ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s76ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s96ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s116ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s136ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s156ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s176ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s196ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s216ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s236ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s255ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s275ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s295ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s315ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s335ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s355ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s375ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s395ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s415ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s435ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s455ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s475ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s495ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s515ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s535ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s555ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s575ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s595ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s615ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s635ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s655ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s675ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s695ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s715ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s735ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s754ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s774ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s794ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s814ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s834ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s854ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s874ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s894ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s914ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s934ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s954ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s974ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 2s994ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s14ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s34ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s54ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s74ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s94ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s114ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s134ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s154ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s174ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s194ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s214ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s234ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s253ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s273ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s293ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s313ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s333ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s353ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s373ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s393ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s413ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s433ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s453ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s473ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s493ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s513ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s533ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s553ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s573ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s593ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s613ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s633ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s653ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s673ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s693ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s713ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s733ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s752ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s772ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s792ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s812ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s832ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s852ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s872ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s892ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s912ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s932ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s952ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s972ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 3s992ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s12ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s32ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s52ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s72ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s92ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s112ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s132ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s152ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s172ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s192ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s212ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s232ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s251ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s271ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s291ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s311ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s331ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s351ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s371ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s391ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s411ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s431ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s451ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s471ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s491ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s511ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s531ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s551ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s571ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s591ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s611ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s631ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s651ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s671ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s691ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s711ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s731ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s750ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s770ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s790ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s810ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s830ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s850ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s870ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s890ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s910ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s930ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s950ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s970ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 4s990ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s10ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s30ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s50ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s70ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s90ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s110ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s130ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s150ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s170ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s190ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s210ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s230ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s250ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s269ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s289ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s309ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s329ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s349ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s369ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s389ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s409ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s429ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s449ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s469ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s489ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s509ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s529ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s549ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s569ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s589ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s609ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s629ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s649ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s669ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s689ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s709ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s729ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s749ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s768ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s788ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s808ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s828ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s848ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s868ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s888ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s908ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s928ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s948ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s968ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 5s988ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s8ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s28ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s48ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s68ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s88ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s108ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s128ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s148ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s168ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s188ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s208ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s228ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s248ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s267ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s287ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s307ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s327ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s347ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s367ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s387ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s407ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s427ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s447ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s467ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s487ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s507ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s527ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s547ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s567ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s587ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s607ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s627ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s647ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s667ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s687ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s707ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s727ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s747ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s766ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s786ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s806ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s826ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s846ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s866ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s886ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s906ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s926ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s946ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s966ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 6s986ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s6ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s26ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s46ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s66ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s86ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s106ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s126ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s146ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s166ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s186ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s206ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s226ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s246ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s265ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s285ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s305ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s325ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s345ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s365ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s385ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s405ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s425ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s445ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s465ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s485ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s505ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s525ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s545ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s565ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s585ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s605ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s625ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s645ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s665ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s685ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s705ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s725ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s745ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s764ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s784ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s804ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s824ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s844ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s864ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s884ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s904ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s924ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s944ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s964ms]]
+[[File:Car_commercial_continuous_camera…_f5d16219_1080p.mp4|frame at 7s984ms]]

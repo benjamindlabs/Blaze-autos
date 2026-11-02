@@ -1,0 +1,414 @@
+== Source Information ==
+
+These frames were extracted from [[File:1030.mp4]] using [https://videotojpg.com videotojpg.com].
+
+=== Suggested {{Information}} template ===
+
+<nowiki>
+{{Information
+|description=Frame extracted from [[File:1030.mp4]]
+|source={{Extracted from|1030.mp4}}
+|date={{According to Exif data}}
+|author=
+|permission=
+|other versions=
+}}
+</nowiki>
+
+=== Extracted frames ===
+
+* [[File:img_00003.jpg]] - frame at 0s33ms
+* [[File:img_00005.jpg]] - frame at 0s67ms
+* [[File:img_00009.jpg]] - frame at 0s134ms
+* [[File:img_00013.jpg]] - frame at 0s200ms
+* [[File:img_00017.jpg]] - frame at 0s267ms
+* [[File:img_00021.jpg]] - frame at 0s334ms
+* [[File:img_00027.jpg]] - frame at 0s434ms
+* [[File:img_00031.jpg]] - frame at 0s501ms
+* [[File:img_00033.jpg]] - frame at 0s534ms
+* [[File:img_00037.jpg]] - frame at 0s601ms
+* [[File:img_00043.jpg]] - frame at 0s701ms
+* [[File:img_00045.jpg]] - frame at 0s735ms
+* [[File:img_00051.jpg]] - frame at 0s835ms
+* [[File:img_00053.jpg]] - frame at 0s868ms
+* [[File:img_00057.jpg]] - frame at 0s935ms
+* [[File:img_00063.jpg]] - frame at 1s35ms
+* [[File:img_00067.jpg]] - frame at 1s102ms
+* [[File:img_00071.jpg]] - frame at 1s169ms
+* [[File:img_00073.jpg]] - frame at 1s202ms
+* [[File:img_00077.jpg]] - frame at 1s269ms
+* [[File:img_00083.jpg]] - frame at 1s369ms
+* [[File:img_00087.jpg]] - frame at 1s436ms
+* [[File:img_00091.jpg]] - frame at 1s503ms
+* [[File:img_00093.jpg]] - frame at 1s536ms
+* [[File:img_00097.jpg]] - frame at 1s603ms
+* [[File:img_00103.jpg]] - frame at 1s703ms
+* [[File:img_00107.jpg]] - frame at 1s770ms
+* [[File:img_00111.jpg]] - frame at 1s836ms
+* [[File:img_00113.jpg]] - frame at 1s870ms
+* [[File:img_00117.jpg]] - frame at 1s937ms
+* [[File:img_00123.jpg]] - frame at 2s37ms
+* [[File:img_00127.jpg]] - frame at 2s104ms
+* [[File:img_00131.jpg]] - frame at 2s170ms
+* [[File:img_00133.jpg]] - frame at 2s204ms
+* [[File:img_00137.jpg]] - frame at 2s270ms
+* [[File:img_00143.jpg]] - frame at 2s371ms
+* [[File:img_00147.jpg]] - frame at 2s437ms
+* [[File:img_00151.jpg]] - frame at 2s504ms
+* [[File:img_00153.jpg]] - frame at 2s538ms
+* [[File:img_00157.jpg]] - frame at 2s604ms
+* [[File:img_00161.jpg]] - frame at 2s671ms
+* [[File:img_00167.jpg]] - frame at 2s771ms
+* [[File:img_00171.jpg]] - frame at 2s838ms
+* [[File:img_00173.jpg]] - frame at 2s871ms
+* [[File:img_00177.jpg]] - frame at 2s938ms
+* [[File:img_00183.jpg]] - frame at 3s38ms
+* [[File:img_00187.jpg]] - frame at 3s105ms
+* [[File:img_00191.jpg]] - frame at 3s172ms
+* [[File:img_00193.jpg]] - frame at 3s205ms
+* [[File:img_00197.jpg]] - frame at 3s272ms
+* [[File:img_00203.jpg]] - frame at 3s372ms
+* [[File:img_00207.jpg]] - frame at 3s439ms
+* [[File:img_00211.jpg]] - frame at 3s506ms
+* [[File:img_00213.jpg]] - frame at 3s539ms
+* [[File:img_00217.jpg]] - frame at 3s606ms
+* [[File:img_00223.jpg]] - frame at 3s706ms
+* [[File:img_00225.jpg]] - frame at 3s740ms
+* [[File:img_00231.jpg]] - frame at 3s840ms
+* [[File:img_00233.jpg]] - frame at 3s873ms
+* [[File:img_00237.jpg]] - frame at 3s940ms
+* [[File:img_00243.jpg]] - frame at 4s40ms
+* [[File:img_00247.jpg]] - frame at 4s107ms
+* [[File:img_00251.jpg]] - frame at 4s174ms
+* [[File:img_00253.jpg]] - frame at 4s207ms
+* [[File:img_00257.jpg]] - frame at 4s274ms
+* [[File:img_00263.jpg]] - frame at 4s374ms
+* [[File:img_00267.jpg]] - frame at 4s441ms
+* [[File:img_00271.jpg]] - frame at 4s508ms
+* [[File:img_00273.jpg]] - frame at 4s541ms
+* [[File:img_00277.jpg]] - frame at 4s608ms
+* [[File:img_00283.jpg]] - frame at 4s708ms
+* [[File:img_00287.jpg]] - frame at 4s775ms
+* [[File:img_00291.jpg]] - frame at 4s841ms
+* [[File:img_00293.jpg]] - frame at 4s875ms
+* [[File:img_00297.jpg]] - frame at 4s942ms
+* [[File:img_00303.jpg]] - frame at 5s42ms
+* [[File:img_00307.jpg]] - frame at 5s109ms
+* [[File:img_00311.jpg]] - frame at 5s175ms
+* [[File:img_00313.jpg]] - frame at 5s209ms
+* [[File:img_00317.jpg]] - frame at 5s275ms
+* [[File:img_00323.jpg]] - frame at 5s376ms
+* [[File:img_00327.jpg]] - frame at 5s442ms
+* [[File:img_00331.jpg]] - frame at 5s509ms
+* [[File:img_00333.jpg]] - frame at 5s543ms
+* [[File:img_00337.jpg]] - frame at 5s609ms
+* [[File:img_00343.jpg]] - frame at 5s710ms
+* [[File:img_00347.jpg]] - frame at 5s776ms
+* [[File:img_00351.jpg]] - frame at 5s843ms
+* [[File:img_00353.jpg]] - frame at 5s876ms
+* [[File:img_00357.jpg]] - frame at 5s943ms
+* [[File:img_00363.jpg]] - frame at 6s43ms
+* [[File:img_00367.jpg]] - frame at 6s110ms
+* [[File:img_00371.jpg]] - frame at 6s177ms
+* [[File:img_00373.jpg]] - frame at 6s210ms
+* [[File:img_00377.jpg]] - frame at 6s277ms
+* [[File:img_00383.jpg]] - frame at 6s377ms
+* [[File:img_00387.jpg]] - frame at 6s444ms
+* [[File:img_00391.jpg]] - frame at 6s511ms
+* [[File:img_00393.jpg]] - frame at 6s544ms
+* [[File:img_00397.jpg]] - frame at 6s611ms
+* [[File:img_00403.jpg]] - frame at 6s711ms
+* [[File:img_00407.jpg]] - frame at 6s778ms
+* [[File:img_00411.jpg]] - frame at 6s845ms
+* [[File:img_00413.jpg]] - frame at 6s878ms
+* [[File:img_00417.jpg]] - frame at 6s945ms
+* [[File:img_00423.jpg]] - frame at 7s45ms
+* [[File:img_00427.jpg]] - frame at 7s112ms
+* [[File:img_00431.jpg]] - frame at 7s179ms
+* [[File:img_00433.jpg]] - frame at 7s212ms
+* [[File:img_00437.jpg]] - frame at 7s279ms
+* [[File:img_00443.jpg]] - frame at 7s379ms
+* [[File:img_00447.jpg]] - frame at 7s446ms
+* [[File:img_00451.jpg]] - frame at 7s513ms
+* [[File:img_00453.jpg]] - frame at 7s546ms
+* [[File:img_00457.jpg]] - frame at 7s613ms
+* [[File:img_00463.jpg]] - frame at 7s713ms
+* [[File:img_00465.jpg]] - frame at 7s746ms
+* [[File:img_00471.jpg]] - frame at 7s846ms
+* [[File:img_00475.jpg]] - frame at 7s913ms
+* [[File:img_00477.jpg]] - frame at 7s947ms
+* [[File:img_00481.jpg]] - frame at 8s13ms
+* [[File:img_00487.jpg]] - frame at 8s114ms
+* [[File:img_00491.jpg]] - frame at 8s180ms
+* [[File:img_00495.jpg]] - frame at 8s247ms
+* [[File:img_00497.jpg]] - frame at 8s280ms
+* [[File:img_00501.jpg]] - frame at 8s347ms
+* [[File:img_00507.jpg]] - frame at 8s447ms
+* [[File:img_00511.jpg]] - frame at 8s514ms
+* [[File:img_00515.jpg]] - frame at 8s581ms
+* [[File:img_00517.jpg]] - frame at 8s614ms
+* [[File:img_00521.jpg]] - frame at 8s681ms
+* [[File:img_00527.jpg]] - frame at 8s781ms
+* [[File:img_00531.jpg]] - frame at 8s848ms
+* [[File:img_00535.jpg]] - frame at 8s915ms
+* [[File:img_00537.jpg]] - frame at 8s948ms
+* [[File:img_00541.jpg]] - frame at 9s15ms
+* [[File:img_00545.jpg]] - frame at 9s82ms
+* [[File:img_00551.jpg]] - frame at 9s182ms
+* [[File:img_00555.jpg]] - frame at 9s249ms
+* [[File:img_00557.jpg]] - frame at 9s282ms
+* [[File:img_00561.jpg]] - frame at 9s349ms
+* [[File:img_00567.jpg]] - frame at 9s449ms
+* [[File:img_00571.jpg]] - frame at 9s516ms
+* [[File:img_00575.jpg]] - frame at 9s583ms
+* [[File:img_00577.jpg]] - frame at 9s616ms
+* [[File:img_00581.jpg]] - frame at 9s683ms
+* [[File:img_00587.jpg]] - frame at 9s783ms
+* [[File:img_00591.jpg]] - frame at 9s850ms
+* [[File:img_00595.jpg]] - frame at 9s917ms
+* [[File:img_00597.jpg]] - frame at 9s950ms
+* [[File:img_00601.jpg]] - frame at 10s17ms
+* [[File:img_00605.jpg]] - frame at 10s83ms
+* [[File:img_00610.jpg]] - frame at 10s167ms
+* [[File:img_00614.jpg]] - frame at 10s234ms
+* [[File:img_00617.jpg]] - frame at 10s284ms
+* [[File:img_00621.jpg]] - frame at 10s351ms
+* [[File:img_00626.jpg]] - frame at 10s434ms
+* [[File:img_00629.jpg]] - frame at 10s484ms
+* [[File:img_00634.jpg]] - frame at 10s568ms
+* [[File:img_00637.jpg]] - frame at 10s618ms
+* [[File:img_00641.jpg]] - frame at 10s684ms
+* [[File:img_00646.jpg]] - frame at 10s768ms
+* [[File:img_00649.jpg]] - frame at 10s818ms
+* [[File:img_00654.jpg]] - frame at 10s902ms
+* [[File:img_00657.jpg]] - frame at 10s952ms
+* [[File:img_00661.jpg]] - frame at 11s18ms
+* [[File:img_00665.jpg]] - frame at 11s85ms
+* [[File:img_00670.jpg]] - frame at 11s169ms
+* [[File:img_00674.jpg]] - frame at 11s235ms
+* [[File:img_00677.jpg]] - frame at 11s285ms
+* [[File:img_00681.jpg]] - frame at 11s352ms
+* [[File:img_00686.jpg]] - frame at 11s436ms
+* [[File:img_00690.jpg]] - frame at 11s503ms
+* [[File:img_00694.jpg]] - frame at 11s569ms
+* [[File:img_00697.jpg]] - frame at 11s619ms
+* [[File:img_00701.jpg]] - frame at 11s686ms
+* [[File:img_00706.jpg]] - frame at 11s770ms
+* [[File:img_00710.jpg]] - frame at 11s836ms
+* [[File:img_00714.jpg]] - frame at 11s903ms
+* [[File:img_00717.jpg]] - frame at 11s953ms
+* [[File:img_00721.jpg]] - frame at 12s20ms
+* [[File:img_00726.jpg]] - frame at 12s104ms
+* [[File:img_00730.jpg]] - frame at 12s170ms
+* [[File:img_00734.jpg]] - frame at 12s237ms
+* [[File:img_00737.jpg]] - frame at 12s287ms
+* [[File:img_00741.jpg]] - frame at 12s354ms
+* [[File:img_00746.jpg]] - frame at 12s437ms
+* [[File:img_00750.jpg]] - frame at 12s504ms
+* [[File:img_00754.jpg]] - frame at 12s571ms
+* [[File:img_00757.jpg]] - frame at 12s621ms
+* [[File:img_00761.jpg]] - frame at 12s688ms
+* [[File:img_00766.jpg]] - frame at 12s771ms
+* [[File:img_00770.jpg]] - frame at 12s838ms
+* [[File:img_00774.jpg]] - frame at 12s905ms
+* [[File:img_00777.jpg]] - frame at 12s955ms
+* [[File:img_00781.jpg]] - frame at 13s22ms
+
+=== Copy-paste source lines ===
+
+[[File:1030.mp4|frame at 0s33ms]]
+[[File:1030.mp4|frame at 0s67ms]]
+[[File:1030.mp4|frame at 0s134ms]]
+[[File:1030.mp4|frame at 0s200ms]]
+[[File:1030.mp4|frame at 0s267ms]]
+[[File:1030.mp4|frame at 0s334ms]]
+[[File:1030.mp4|frame at 0s434ms]]
+[[File:1030.mp4|frame at 0s501ms]]
+[[File:1030.mp4|frame at 0s534ms]]
+[[File:1030.mp4|frame at 0s601ms]]
+[[File:1030.mp4|frame at 0s701ms]]
+[[File:1030.mp4|frame at 0s735ms]]
+[[File:1030.mp4|frame at 0s835ms]]
+[[File:1030.mp4|frame at 0s868ms]]
+[[File:1030.mp4|frame at 0s935ms]]
+[[File:1030.mp4|frame at 1s35ms]]
+[[File:1030.mp4|frame at 1s102ms]]
+[[File:1030.mp4|frame at 1s169ms]]
+[[File:1030.mp4|frame at 1s202ms]]
+[[File:1030.mp4|frame at 1s269ms]]
+[[File:1030.mp4|frame at 1s369ms]]
+[[File:1030.mp4|frame at 1s436ms]]
+[[File:1030.mp4|frame at 1s503ms]]
+[[File:1030.mp4|frame at 1s536ms]]
+[[File:1030.mp4|frame at 1s603ms]]
+[[File:1030.mp4|frame at 1s703ms]]
+[[File:1030.mp4|frame at 1s770ms]]
+[[File:1030.mp4|frame at 1s836ms]]
+[[File:1030.mp4|frame at 1s870ms]]
+[[File:1030.mp4|frame at 1s937ms]]
+[[File:1030.mp4|frame at 2s37ms]]
+[[File:1030.mp4|frame at 2s104ms]]
+[[File:1030.mp4|frame at 2s170ms]]
+[[File:1030.mp4|frame at 2s204ms]]
+[[File:1030.mp4|frame at 2s270ms]]
+[[File:1030.mp4|frame at 2s371ms]]
+[[File:1030.mp4|frame at 2s437ms]]
+[[File:1030.mp4|frame at 2s504ms]]
+[[File:1030.mp4|frame at 2s538ms]]
+[[File:1030.mp4|frame at 2s604ms]]
+[[File:1030.mp4|frame at 2s671ms]]
+[[File:1030.mp4|frame at 2s771ms]]
+[[File:1030.mp4|frame at 2s838ms]]
+[[File:1030.mp4|frame at 2s871ms]]
+[[File:1030.mp4|frame at 2s938ms]]
+[[File:1030.mp4|frame at 3s38ms]]
+[[File:1030.mp4|frame at 3s105ms]]
+[[File:1030.mp4|frame at 3s172ms]]
+[[File:1030.mp4|frame at 3s205ms]]
+[[File:1030.mp4|frame at 3s272ms]]
+[[File:1030.mp4|frame at 3s372ms]]
+[[File:1030.mp4|frame at 3s439ms]]
+[[File:1030.mp4|frame at 3s506ms]]
+[[File:1030.mp4|frame at 3s539ms]]
+[[File:1030.mp4|frame at 3s606ms]]
+[[File:1030.mp4|frame at 3s706ms]]
+[[File:1030.mp4|frame at 3s740ms]]
+[[File:1030.mp4|frame at 3s840ms]]
+[[File:1030.mp4|frame at 3s873ms]]
+[[File:1030.mp4|frame at 3s940ms]]
+[[File:1030.mp4|frame at 4s40ms]]
+[[File:1030.mp4|frame at 4s107ms]]
+[[File:1030.mp4|frame at 4s174ms]]
+[[File:1030.mp4|frame at 4s207ms]]
+[[File:1030.mp4|frame at 4s274ms]]
+[[File:1030.mp4|frame at 4s374ms]]
+[[File:1030.mp4|frame at 4s441ms]]
+[[File:1030.mp4|frame at 4s508ms]]
+[[File:1030.mp4|frame at 4s541ms]]
+[[File:1030.mp4|frame at 4s608ms]]
+[[File:1030.mp4|frame at 4s708ms]]
+[[File:1030.mp4|frame at 4s775ms]]
+[[File:1030.mp4|frame at 4s841ms]]
+[[File:1030.mp4|frame at 4s875ms]]
+[[File:1030.mp4|frame at 4s942ms]]
+[[File:1030.mp4|frame at 5s42ms]]
+[[File:1030.mp4|frame at 5s109ms]]
+[[File:1030.mp4|frame at 5s175ms]]
+[[File:1030.mp4|frame at 5s209ms]]
+[[File:1030.mp4|frame at 5s275ms]]
+[[File:1030.mp4|frame at 5s376ms]]
+[[File:1030.mp4|frame at 5s442ms]]
+[[File:1030.mp4|frame at 5s509ms]]
+[[File:1030.mp4|frame at 5s543ms]]
+[[File:1030.mp4|frame at 5s609ms]]
+[[File:1030.mp4|frame at 5s710ms]]
+[[File:1030.mp4|frame at 5s776ms]]
+[[File:1030.mp4|frame at 5s843ms]]
+[[File:1030.mp4|frame at 5s876ms]]
+[[File:1030.mp4|frame at 5s943ms]]
+[[File:1030.mp4|frame at 6s43ms]]
+[[File:1030.mp4|frame at 6s110ms]]
+[[File:1030.mp4|frame at 6s177ms]]
+[[File:1030.mp4|frame at 6s210ms]]
+[[File:1030.mp4|frame at 6s277ms]]
+[[File:1030.mp4|frame at 6s377ms]]
+[[File:1030.mp4|frame at 6s444ms]]
+[[File:1030.mp4|frame at 6s511ms]]
+[[File:1030.mp4|frame at 6s544ms]]
+[[File:1030.mp4|frame at 6s611ms]]
+[[File:1030.mp4|frame at 6s711ms]]
+[[File:1030.mp4|frame at 6s778ms]]
+[[File:1030.mp4|frame at 6s845ms]]
+[[File:1030.mp4|frame at 6s878ms]]
+[[File:1030.mp4|frame at 6s945ms]]
+[[File:1030.mp4|frame at 7s45ms]]
+[[File:1030.mp4|frame at 7s112ms]]
+[[File:1030.mp4|frame at 7s179ms]]
+[[File:1030.mp4|frame at 7s212ms]]
+[[File:1030.mp4|frame at 7s279ms]]
+[[File:1030.mp4|frame at 7s379ms]]
+[[File:1030.mp4|frame at 7s446ms]]
+[[File:1030.mp4|frame at 7s513ms]]
+[[File:1030.mp4|frame at 7s546ms]]
+[[File:1030.mp4|frame at 7s613ms]]
+[[File:1030.mp4|frame at 7s713ms]]
+[[File:1030.mp4|frame at 7s746ms]]
+[[File:1030.mp4|frame at 7s846ms]]
+[[File:1030.mp4|frame at 7s913ms]]
+[[File:1030.mp4|frame at 7s947ms]]
+[[File:1030.mp4|frame at 8s13ms]]
+[[File:1030.mp4|frame at 8s114ms]]
+[[File:1030.mp4|frame at 8s180ms]]
+[[File:1030.mp4|frame at 8s247ms]]
+[[File:1030.mp4|frame at 8s280ms]]
+[[File:1030.mp4|frame at 8s347ms]]
+[[File:1030.mp4|frame at 8s447ms]]
+[[File:1030.mp4|frame at 8s514ms]]
+[[File:1030.mp4|frame at 8s581ms]]
+[[File:1030.mp4|frame at 8s614ms]]
+[[File:1030.mp4|frame at 8s681ms]]
+[[File:1030.mp4|frame at 8s781ms]]
+[[File:1030.mp4|frame at 8s848ms]]
+[[File:1030.mp4|frame at 8s915ms]]
+[[File:1030.mp4|frame at 8s948ms]]
+[[File:1030.mp4|frame at 9s15ms]]
+[[File:1030.mp4|frame at 9s82ms]]
+[[File:1030.mp4|frame at 9s182ms]]
+[[File:1030.mp4|frame at 9s249ms]]
+[[File:1030.mp4|frame at 9s282ms]]
+[[File:1030.mp4|frame at 9s349ms]]
+[[File:1030.mp4|frame at 9s449ms]]
+[[File:1030.mp4|frame at 9s516ms]]
+[[File:1030.mp4|frame at 9s583ms]]
+[[File:1030.mp4|frame at 9s616ms]]
+[[File:1030.mp4|frame at 9s683ms]]
+[[File:1030.mp4|frame at 9s783ms]]
+[[File:1030.mp4|frame at 9s850ms]]
+[[File:1030.mp4|frame at 9s917ms]]
+[[File:1030.mp4|frame at 9s950ms]]
+[[File:1030.mp4|frame at 10s17ms]]
+[[File:1030.mp4|frame at 10s83ms]]
+[[File:1030.mp4|frame at 10s167ms]]
+[[File:1030.mp4|frame at 10s234ms]]
+[[File:1030.mp4|frame at 10s284ms]]
+[[File:1030.mp4|frame at 10s351ms]]
+[[File:1030.mp4|frame at 10s434ms]]
+[[File:1030.mp4|frame at 10s484ms]]
+[[File:1030.mp4|frame at 10s568ms]]
+[[File:1030.mp4|frame at 10s618ms]]
+[[File:1030.mp4|frame at 10s684ms]]
+[[File:1030.mp4|frame at 10s768ms]]
+[[File:1030.mp4|frame at 10s818ms]]
+[[File:1030.mp4|frame at 10s902ms]]
+[[File:1030.mp4|frame at 10s952ms]]
+[[File:1030.mp4|frame at 11s18ms]]
+[[File:1030.mp4|frame at 11s85ms]]
+[[File:1030.mp4|frame at 11s169ms]]
+[[File:1030.mp4|frame at 11s235ms]]
+[[File:1030.mp4|frame at 11s285ms]]
+[[File:1030.mp4|frame at 11s352ms]]
+[[File:1030.mp4|frame at 11s436ms]]
+[[File:1030.mp4|frame at 11s503ms]]
+[[File:1030.mp4|frame at 11s569ms]]
+[[File:1030.mp4|frame at 11s619ms]]
+[[File:1030.mp4|frame at 11s686ms]]
+[[File:1030.mp4|frame at 11s770ms]]
+[[File:1030.mp4|frame at 11s836ms]]
+[[File:1030.mp4|frame at 11s903ms]]
+[[File:1030.mp4|frame at 11s953ms]]
+[[File:1030.mp4|frame at 12s20ms]]
+[[File:1030.mp4|frame at 12s104ms]]
+[[File:1030.mp4|frame at 12s170ms]]
+[[File:1030.mp4|frame at 12s237ms]]
+[[File:1030.mp4|frame at 12s287ms]]
+[[File:1030.mp4|frame at 12s354ms]]
+[[File:1030.mp4|frame at 12s437ms]]
+[[File:1030.mp4|frame at 12s504ms]]
+[[File:1030.mp4|frame at 12s571ms]]
+[[File:1030.mp4|frame at 12s621ms]]
+[[File:1030.mp4|frame at 12s688ms]]
+[[File:1030.mp4|frame at 12s771ms]]
+[[File:1030.mp4|frame at 12s838ms]]
+[[File:1030.mp4|frame at 12s905ms]]
+[[File:1030.mp4|frame at 12s955ms]]
+[[File:1030.mp4|frame at 13s22ms]]
