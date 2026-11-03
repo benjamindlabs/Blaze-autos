@@ -4,6 +4,7 @@ import LogoMarquee from "@/components/LogoMarquee";
 import BentoGrid from "@/components/BentoGrid";
 import InteriorHero from "@/components/InteriorHero";
 import Footer from "@/components/Footer";
+import PrivateViewingModal from "@/components/PrivateViewingModal";
 
 export default function Home() {
   return (
@@ -16,12 +17,11 @@ export default function Home() {
     >
       <Navbar />
       <ShowroomScrollSequence />
-      <div id="inventory">
-        <LogoMarquee />
-        <BentoGrid />
-      </div>
+      <LogoMarquee />
+      <BentoGrid />
       <InteriorHero />
       <Footer />
+      <PrivateViewingModal />
     </main>
   );
 }

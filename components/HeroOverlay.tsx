@@ -3,6 +3,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { scrollToSection } from "./SmoothScrollProvider";
 
 export interface HeroOverlayProps {
   /** Reference to the trigger element (the pinned hero container) */
@@ -199,7 +200,14 @@ export default function HeroOverlay({
 
         {/* Sharp square CTA button with pointer-events: auto */}
         <div>
-          <a href="#inventory" className="cta-square-btn">
+          <a
+            href="#collection"
+            className="cta-square-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("collection");
+            }}
+          >
             EXPLORE INVENTORY
           </a>
         </div>

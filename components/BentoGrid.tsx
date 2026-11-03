@@ -2,6 +2,7 @@
 
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect, useCallback } from "react";
+import { openPrivateViewing } from "./PrivateViewingModal";
 
 export type CarCategory = "HYPERCAR" | "PERFORMANCE SUV" | "TRACK SPEC";
 
@@ -234,10 +235,14 @@ export default function BentoGrid() {
 
   return (
     <section
-      id="showcase"
-      className="bento-section"
+      id="collection"
+      className="bento-section relative"
       aria-label="Automotive Bento Showcase"
     >
+      {/* Anchor targets for both #inventory and #showcase */}
+      <div id="inventory" className="absolute -top-12 left-0 pointer-events-none" aria-hidden="true" />
+      <div id="showcase" className="absolute -top-12 left-0 pointer-events-none" aria-hidden="true" />
+
       {/* Section Header */}
       <div className="bento-header">
         <div>
@@ -534,16 +539,23 @@ export default function BentoGrid() {
                   </span>
                 </div>
 
-                <a
-                  href="#contact"
+                <button
+                  type="button"
                   className="bento-btn-secondary"
-                  onClick={closeModal}
+                  onClick={() => {
+                    closeModal();
+                    openPrivateViewing({
+                      title: "COMMISSION INQUIRY",
+                      vehicle: selectedCar.makeModel,
+                      subtitle: `${selectedCar.makeModel} · Allocation Commission & Private Viewing`,
+                    });
+                  }}
                 >
                   <span>INQUIRE ABOUT THIS VEHICLE</span>
                   <span className="bento-btn-arrow" aria-hidden="true">
                     →
                   </span>
-                </a>
+                </button>
               </div>
             </div>
           </div>

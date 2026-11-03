@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { getV8AudioEngine } from "@/lib/v8AudioEngine";
+import { openPrivateViewing } from "./PrivateViewingModal";
 
 export interface TelemetryOverlayProps {
   /** Reference to the trigger element (the pinned InteriorHero container) */
@@ -26,20 +27,22 @@ export default function TelemetryOverlay({
   const stage3Ref = useRef<HTMLDivElement>(null);
   const progressTextRef = useRef<HTMLSpanElement>(null);
 
-  // Modal state for private allocation viewing
-  const [isViewingModalOpen, setIsViewingModalOpen] = useState(false);
+  // Modal state for technical build sheet inspection
   const [isSpecModalOpen, setIsSpecModalOpen] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
 
   useEffect(() => {
     const engine = getV8AudioEngine();
-    const unsubscribe = engine.onEnded(() => {
+    const unsubEnded = engine.onEnded(() => {
       setIsPlayingAudio(false);
+    });
+    const unsubState = engine.onStateChange((playing) => {
+      setIsPlayingAudio(playing);
     });
 
     return () => {
-      unsubscribe();
+      unsubEnded();
+      unsubState();
       engine.stop();
     };
   }, []);
@@ -50,8 +53,7 @@ export default function TelemetryOverlay({
       engine.stop();
       setIsPlayingAudio(false);
     } else {
-      const ok = engine.start();
-      if (ok) setIsPlayingAudio(true);
+      engine.start();
     }
   };
 
@@ -267,15 +269,6 @@ export default function TelemetryOverlay({
       ctx.revert();
     };
   }, [triggerRef, scrollDistance, isReducedMotion]);
-
-  const handleSubmitInquiry = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setIsViewingModalOpen(false);
-    }, 2200);
-  };
 
   return (
     <div className="telemetry-overlay-root" aria-live="polite">
@@ -508,7 +501,13 @@ export default function TelemetryOverlay({
             <button
               type="button"
               className="hud-btn-primary"
-              onClick={() => setIsViewingModalOpen(true)}
+              onClick={() =>
+                openPrivateViewing({
+                  title: "REQUEST PRIVATE VIEWING",
+                  vehicle: "Mercedes-AMG GLE 63 S Coupe",
+                  subtitle: "Mercedes-AMG GLE 63 S Coupe · Private Collection Viewing Room or Direct Airfield Delivery",
+                })
+              }
             >
               REQUEST PRIVATE VIEWING
             </button>
@@ -529,100 +528,7 @@ export default function TelemetryOverlay({
         </div>
       </div>
 
-      {/* =========================================================================
-          MODAL 1: PRIVATE VIEWING APPOINTMENT
-         ========================================================================= */}
-      {isViewingModalOpen && (
-        <div className="hud-modal-backdrop" onClick={() => setIsViewingModalOpen(false)}>
-          <div
-            className="hud-modal-dialog"
-            onClick={(e) => e.stopPropagation()}
-            role="dialog"
-            aria-modal="true"
-          >
-            <div className="modal-header">
-              <div className="stage-tag">
-                <span className="stage-index">VIP ALLOCATION</span>
-                <span className="stage-divider">/</span>
-                <span className="stage-name">BLAZE AUTOS CONCIERGE</span>
-              </div>
-              <button
-                type="button"
-                className="modal-close-btn"
-                onClick={() => setIsViewingModalOpen(false)}
-                aria-label="Close modal"
-              >
-                &times;
-              </button>
-            </div>
 
-            <h3 className="modal-title">
-              REQUEST PRIVATE <span className="accent-text">VIEWING</span>
-            </h3>
-            <p className="modal-subtitle">
-              Mercedes-AMG GLE 63 S Coupe &middot; Private Collection Viewing Room or Direct Airfield Delivery
-            </p>
-
-            {isSubmitted ? (
-              <div className="modal-success-box">
-                <div className="success-icon">&#10003;</div>
-                <div className="success-title">INQUIRY ENCRYPTED & TRANSMITTED</div>
-                <p className="success-desc">
-                  A Blaze Autos Senior Client Director will contact you via private channel within 2 hours.
-                </p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmitInquiry} className="modal-form">
-                <div className="form-row">
-                  <div className="form-group">
-                    <label className="form-label">FULL NAME</label>
-                    <input
-                      required
-                      type="text"
-                      className="form-input"
-                      placeholder="e.g. Marcus Vance"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label className="form-label">TELEPHONE / SIGNAL</label>
-                    <input
-                      required
-                      type="tel"
-                      className="form-input"
-                      placeholder="+1 (555) 019-2834"
-                    />
-                  </div>
-                </div>
-
-                <div className="form-group">
-                  <label className="form-label">CLIENT EMAIL</label>
-                  <input
-                    required
-                    type="email"
-                    className="form-input"
-                    placeholder="client@executive.com"
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label className="form-label">VIEWING LOCATION PREFERENCE</label>
-                  <select className="form-input form-select" defaultValue="studio">
-                    <option value="studio">Blaze Autos Private Studio (VIP Lounge)</option>
-                    <option value="airfield">Private Airfield / FBO Direct Delivery</option>
-                    <option value="residence">Private Residence Viewing (Confidential)</option>
-                  </select>
-                </div>
-
-                <div className="modal-actions">
-                  <button type="submit" className="hud-btn-primary full-width">
-                    TRANSMIT SECURE INQUIRY
-                  </button>
-                </div>
-              </form>
-            )}
-          </div>
-        </div>
-      )}
 
       {/* =========================================================================
           MODAL 2: TECHNICAL BUILD SHEET INSPECTION
@@ -712,7 +618,11 @@ export default function TelemetryOverlay({
                 className="hud-btn-primary"
                 onClick={() => {
                   setIsSpecModalOpen(false);
-                  setIsViewingModalOpen(true);
+                  openPrivateViewing({
+                    title: "REQUEST PRIVATE VIEWING",
+                    vehicle: "Mercedes-AMG GLE 63 S Coupe",
+                    subtitle: "Mercedes-AMG GLE 63 S Coupe · Private Collection Viewing Room or Direct Airfield Delivery",
+                  });
                 }}
               >
                 PROCEED TO PRIVATE VIEWING INQUIRY

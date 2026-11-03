@@ -45,6 +45,9 @@ export default function SmoothScrollProvider({
     });
 
     lenisRef.current = lenis;
+    if (typeof window !== "undefined") {
+      (window as any).__lenis = lenis;
+    }
 
     // Update ScrollTrigger on every Lenis scroll
     lenis.on("scroll", ScrollTrigger.update);
@@ -61,9 +64,39 @@ export default function SmoothScrollProvider({
       gsap.ticker.remove(tickerCallback);
       lenis.destroy();
       lenisRef.current = null;
+      if (typeof window !== "undefined") {
+        (window as any).__lenis = null;
+      }
     };
   }, []);
 
   return <>{children}</>;
 }
+
+/**
+ * Smoothly scroll to any target element ID on the page, leveraging Lenis on desktop
+ * and native smooth scrolling on mobile.
+ */
+export const scrollToSection = (targetId: string) => {
+  if (typeof window === "undefined") return;
+
+  if (targetId === "top" || targetId === "#") {
+    if ((window as any).__lenis) {
+      (window as any).__lenis.scrollTo(0, { duration: 1.2 });
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    return;
+  }
+
+  const cleanId = targetId.replace(/^#/, "");
+  const el = document.getElementById(cleanId);
+  if (!el) return;
+
+  if ((window as any).__lenis) {
+    (window as any).__lenis.scrollTo(el, { offset: 0, duration: 1.2 });
+  } else {
+    el.scrollIntoView({ behavior: "smooth" });
+  }
+};
 

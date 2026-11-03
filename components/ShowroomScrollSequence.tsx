@@ -103,8 +103,13 @@ export default function ShowroomScrollSequence({
   const isCancelledRef = useRef<boolean>(false);
 
   const getFrameUrl = useCallback((index: number) => {
-    const filename = WALKIN_FRAMES[index] || WALKIN_FRAMES[0];
-    return `/frames/walkin/${filename}`;
+    const rawFilename = WALKIN_FRAMES[index] || WALKIN_FRAMES[0];
+    const filename = rawFilename.replace(/\.jpe?g$/i, ".webp");
+    const isMobile =
+      typeof window !== "undefined" &&
+      (window.innerWidth < 768 || window.matchMedia("(pointer: coarse)").matches);
+    const folder = isMobile ? "walkin-mobile" : "walkin-webp";
+    return `/frames/${folder}/${filename}`;
   }, []);
 
   // Draw current frame with sharp DPR awareness and object-fit: cover
@@ -145,10 +150,6 @@ export default function ShowroomScrollSequence({
     }
 
     if (!imgToDraw || !imgToDraw.naturalWidth || !imgToDraw.naturalHeight) {
-      return;
-    }
-
-    if (drawnIdx === lastDrawnIndexRef.current && lastDrawnIndexRef.current !== -1) {
       return;
     }
 
@@ -211,6 +212,7 @@ export default function ShowroomScrollSequence({
     if (canvas.width !== targetW || canvas.height !== targetH) {
       canvas.width = targetW;
       canvas.height = targetH;
+      lastDrawnIndexRef.current = -1;
     }
 
     requestRender();
@@ -334,6 +336,9 @@ export default function ShowroomScrollSequence({
     const keyframes: number[] = [];
     for (let k = 16; k < TOTAL_FRAMES; k += 8) {
       keyframes.push(k);
+    }
+    if (!keyframes.includes(TOTAL_FRAMES - 1)) {
+      keyframes.push(TOTAL_FRAMES - 1);
     }
     queueFrames(keyframes, false);
 

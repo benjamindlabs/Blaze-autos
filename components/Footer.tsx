@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { scrollToSection } from "./SmoothScrollProvider";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -18,7 +19,7 @@ export default function Footer() {
 
   return (
     <>
-      {/* Part 04: Glossy Transparent Architectural Allocations Section */}
+      {/* Part 04: Architectural Allocations Section */}
       <section
         id="allocations"
         className="allocations-glossy-section"
@@ -44,6 +45,26 @@ export default function Footer() {
               Private vehicle acquisitions, confidential consignment, and white-glove logistics
               spanning Europe, the Middle East, and the Americas.
             </p>
+
+            {/* Minimalist Dispatch Coordinates & Allocation Status */}
+            <div className="allocations-dispatch-bar">
+              <span className="dispatch-badge">
+                <span className="dispatch-dot" aria-hidden="true" />
+                STATUS: ALLOCATIONS ACTIVE Q4
+              </span>
+              <span className="dispatch-divider">/</span>
+              <span className="dispatch-coord">
+                <span className="coord-city">MAYFAIR</span> 51.5098° N, 0.1444° W
+              </span>
+              <span className="dispatch-divider">/</span>
+              <span className="dispatch-coord">
+                <span className="coord-city">DIFC</span> 25.2048° N, 55.2708° E
+              </span>
+              <span className="dispatch-divider">/</span>
+              <span className="dispatch-coord">
+                <span className="coord-city">ZÜRICH</span> 47.3769° N, 8.5417° E
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -139,20 +160,19 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Private Allocation Registry Form */}
-          <div className="footer-col">
-            <h3 className="footer-col-title">PRIVATE REGISTRY</h3>
+          {/* Column 4: Private Allocation Registry & Test Drive Inquiry Form */}
+          <div className="footer-col" id="test-drive">
+            <h3 className="footer-col-title">BOOK A TEST DRIVE & REGISTRY</h3>
             <p className="footer-registry-desc">
-              Receive confidential dispatches for off-market build slot drops, private collections,
-              and rare consignment acquisitions.
+              Request a private driving appointment, bespoke collection viewing, or receive confidential off-market allocations.
             </p>
 
             {isSubscribed ? (
               <div className="registry-success-box">
                 <span className="registry-success-dot">&#10003;</span>
-                <span className="registry-success-title">CREDENTIALS REGISTERED</span>
+                <span className="registry-success-title">INQUIRY TRANSMITTED</span>
                 <p className="registry-success-text">
-                  Your communication channel has been logged with our Private Client Director.
+                  Your test drive & client credentials have been logged with our Private Client Director.
                 </p>
               </div>
             ) : (
@@ -165,14 +185,14 @@ export default function Footer() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="ENTER CLIENT EMAIL"
                     className="registry-input"
-                    aria-label="Enter your email for the Private Allocation Registry"
+                    aria-label="Enter your email to book a test drive or join the Private Registry"
                   />
                   <button type="submit" className="registry-btn">
-                    REGISTER
+                    REQUEST
                   </button>
                 </div>
                 <span className="registry-disclaimer">
-                  ENCRYPTED TRANSMISSION &middot; ZERO SPAM &middot; CONFIDENTIAL DISPATCH
+                  ENCRYPTED TRANSMISSION &middot; BESPOKE TEST DRIVE &middot; CONFIDENTIAL DISPATCH
                 </span>
               </form>
             )}
@@ -189,9 +209,36 @@ export default function Footer() {
           </div>
 
           <div className="footer-sub-links">
-            <a href="#inventory" className="footer-sub-link">INVENTORY</a>
-            <a href="#heritage" className="footer-sub-link">HERITAGE</a>
-            <a href="#contact" className="footer-sub-link">CONCIERGE</a>
+            <a
+              href="#collection"
+              className="footer-sub-link"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("collection");
+              }}
+            >
+              INVENTORY
+            </a>
+            <a
+              href="#heritage"
+              className="footer-sub-link"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("heritage");
+              }}
+            >
+              HERITAGE
+            </a>
+            <a
+              href="#contact"
+              className="footer-sub-link"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("contact");
+              }}
+            >
+              CONCIERGE
+            </a>
             <span className="footer-sub-dim">51.5098° N, -0.1415° W</span>
           </div>
         </div>

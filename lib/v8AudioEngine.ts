@@ -1,29 +1,23 @@
 /**
- * High-Fidelity Audio Engine: Mercedes-AMG 4.0L V8 Biturbo Cold Start
- * Uses high-definition generated audio with native HTML5 Audio for 100% browser compatibility,
- * with Web Audio API fallback and smooth gain transitions.
+ * Authentic Mercedes-AMG V8 Cold Start Audio Engine
+ * Uses Web Audio API with decoded audio buffer for 100% reliable, instant,
+ * uncompressed-quality playback on both desktop localhost and mobile devices.
+ * Zero-load impact: audio is ONLY fetched when user physically clicks the button.
  */
 
 class V8AudioEngine {
-  private audioElement: HTMLAudioElement | null = null;
+  private audioContext: AudioContext | null = null;
+  private audioBuffer: AudioBuffer | null = null;
+  private currentSource: AudioBufferSourceNode | null = null;
+  private fallbackAudio: HTMLAudioElement | null = null;
   private isRunning: boolean = false;
   private onEndCallbacks: Set<() => void> = new Set();
+  private onStateCallbacks: Set<(playing: boolean) => void> = new Set();
+  private isDecoding: boolean = false;
 
-  constructor() {
-    if (typeof window !== "undefined") {
-      try {
-        this.audioElement = new Audio("/audio/amg-v8-cold-start.wav");
-        this.audioElement.preload = "auto";
-        this.audioElement.volume = 0.95;
-
-        this.audioElement.addEventListener("ended", () => {
-          this.isRunning = false;
-          this.onEndCallbacks.forEach((cb) => cb());
-        });
-      } catch (err) {
-        console.warn("[V8AudioEngine] Audio element init failed:", err);
-      }
-    }
+  private notifyState(playing: boolean): void {
+    this.isRunning = playing;
+    this.onStateCallbacks.forEach((cb) => cb(playing));
   }
 
   public onEnded(callback: () => void): () => void {
@@ -31,49 +25,111 @@ class V8AudioEngine {
     return () => this.onEndCallbacks.delete(callback);
   }
 
-  public start(): boolean {
+  public onStateChange(callback: (playing: boolean) => void): () => void {
+    this.onStateCallbacks.add(callback);
+    return () => this.onStateCallbacks.delete(callback);
+  }
+
+  public async start(): Promise<boolean> {
     if (typeof window === "undefined") return false;
 
     try {
-      if (!this.audioElement) {
-        this.audioElement = new Audio("/audio/amg-v8-cold-start.wav");
-        this.audioElement.volume = 0.95;
+      // 1. Primary: Web Audio API (instant, high-impact, bypasses iOS silent switch)
+      const AudioCtx =
+        window.AudioContext ||
+        (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+
+      if (AudioCtx) {
+        if (!this.audioContext || this.audioContext.state === "closed") {
+          this.audioContext = new AudioCtx();
+        }
+
+        if (this.audioContext.state === "suspended") {
+          await this.audioContext.resume();
+        }
+
+        // Lazy fetch on first user click only (cached in RAM thereafter)
+        if (!this.audioBuffer && !this.isDecoding) {
+          this.isDecoding = true;
+          try {
+            const res = await fetch("/audio/amg-v8-cold-start.mp3");
+            const arrayBuffer = await res.arrayBuffer();
+            this.audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
+          } finally {
+            this.isDecoding = false;
+          }
+        }
+
+        if (this.audioBuffer) {
+          // Stop any previous instance if already active
+          if (this.currentSource) {
+            try {
+              this.currentSource.stop();
+              this.currentSource.disconnect();
+            } catch {}
+          }
+
+          const source = this.audioContext.createBufferSource();
+          source.buffer = this.audioBuffer;
+
+          const gainNode = this.audioContext.createGain();
+          gainNode.gain.value = 1.0;
+
+          source.connect(gainNode);
+          gainNode.connect(this.audioContext.destination);
+
+          source.onended = () => {
+            this.currentSource = null;
+            this.notifyState(false);
+            this.onEndCallbacks.forEach((cb) => cb());
+          };
+
+          source.start(0);
+          this.currentSource = source;
+          this.notifyState(true);
+          return true;
+        }
       }
 
-      this.audioElement.currentTime = 0;
-      const playPromise = this.audioElement.play();
-
-      if (playPromise !== undefined) {
-        playPromise
-          .then(() => {
-            this.isRunning = true;
-          })
-          .catch((err) => {
-            console.warn("[V8AudioEngine] Playback was prevented by browser:", err);
-            this.isRunning = false;
-          });
+      // 2. Fallback: Native HTML5 Audio
+      if (!this.fallbackAudio) {
+        const audio = new Audio("/audio/amg-v8-cold-start.mp3");
+        audio.preload = "auto";
+        audio.volume = 1.0;
+        audio.addEventListener("ended", () => {
+          this.notifyState(false);
+          this.onEndCallbacks.forEach((cb) => cb());
+        });
+        this.fallbackAudio = audio;
       }
 
-      this.isRunning = true;
+      this.fallbackAudio.currentTime = 0;
+      await this.fallbackAudio.play();
+      this.notifyState(true);
       return true;
     } catch (err) {
-      console.warn("[V8AudioEngine] Failed to play V8 audio:", err);
-      this.isRunning = false;
+      console.error("[V8AudioEngine] Playback error:", err);
+      this.notifyState(false);
       return false;
     }
   }
 
   public stop(): void {
-    if (!this.audioElement) return;
-
-    try {
-      this.audioElement.pause();
-      this.audioElement.currentTime = 0;
-      this.isRunning = false;
-      this.onEndCallbacks.forEach((cb) => cb());
-    } catch {
-      this.isRunning = false;
+    if (this.currentSource) {
+      try {
+        this.currentSource.stop();
+        this.currentSource.disconnect();
+      } catch {}
+      this.currentSource = null;
     }
+    if (this.fallbackAudio) {
+      try {
+        this.fallbackAudio.pause();
+        this.fallbackAudio.currentTime = 0;
+      } catch {}
+    }
+    this.notifyState(false);
+    this.onEndCallbacks.forEach((cb) => cb());
   }
 
   public getIsPlaying(): boolean {

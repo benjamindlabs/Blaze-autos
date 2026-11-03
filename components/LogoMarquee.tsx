@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { scrollToSection } from "./SmoothScrollProvider";
 
 interface BrandItem {
   id: string;
@@ -371,7 +372,16 @@ export default function LogoMarquee() {
           {topSequence.map((brand, idx) => (
             <div
               key={`top-${brand.id}-${idx}`}
-              className="brand-marquee-card"
+              className="brand-marquee-card cursor-pointer"
+              onClick={() => scrollToSection("collection")}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  scrollToSection("collection");
+                }
+              }}
               style={
                 {
                   "--brand-color": brand.color,
@@ -397,7 +407,16 @@ export default function LogoMarquee() {
           {bottomSequence.map((brand, idx) => (
             <div
               key={`bottom-${brand.id}-${idx}`}
-              className="brand-marquee-card"
+              className="brand-marquee-card cursor-pointer"
+              onClick={() => scrollToSection("collection")}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  scrollToSection("collection");
+                }
+              }}
               style={
                 {
                   "--brand-color": brand.color,

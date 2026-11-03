@@ -22,11 +22,15 @@ const DEFAULT_TOTAL_FRAMES = 401;
 const DEFAULT_SCROLL_DISTANCE = 4000;
 const CONCURRENT_DOWNLOAD_LIMIT = 3;
 
-/** Default resolver for zero-padded frame paths: /frames/interior/img_00001.jpg .. img_00401.jpg */
+/** Default resolver for zero-padded frame paths: WebP with mobile / desktop routing */
 export const defaultGetFrameUrl = (index: number): string => {
   const frameNumber = index + 1;
   const padded = String(frameNumber).padStart(5, "0");
-  return `/frames/interior/img_${padded}.jpg`;
+  const isMobile =
+    typeof window !== "undefined" &&
+    (window.innerWidth < 768 || window.matchMedia("(pointer: coarse)").matches);
+  const folder = isMobile ? "interior-mobile" : "interior-webp";
+  return `/frames/${folder}/img_${padded}.webp`;
 };
 
 // React 19 compliant subscription to prefers-reduced-motion
@@ -118,9 +122,6 @@ export default function InteriorHero({
     }
 
     if (!imgToDraw) return;
-    if (drawnIdx === lastDrawnIndexRef.current && lastDrawnIndexRef.current !== -1) {
-      return;
-    }
     lastDrawnIndexRef.current = drawnIdx;
 
     const cw = canvas.width;
@@ -171,6 +172,7 @@ export default function InteriorHero({
     if (canvas.width !== targetW || canvas.height !== targetH) {
       canvas.width = targetW;
       canvas.height = targetH;
+      lastDrawnIndexRef.current = -1;
     }
 
     requestRender();
@@ -333,6 +335,9 @@ export default function InteriorHero({
     const keyframes: number[] = [];
     for (let i = 20; i < totalFrames; i += 10) {
       keyframes.push(i);
+    }
+    if (!keyframes.includes(totalFrames - 1)) {
+      keyframes.push(totalFrames - 1);
     }
     queueFrames(keyframes, false);
   }, [isLazyTriggered, totalFrames, queueFrames]);
