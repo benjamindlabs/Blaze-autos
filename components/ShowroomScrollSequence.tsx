@@ -104,7 +104,7 @@ export default function ShowroomScrollSequence({
 
   const getFrameUrl = useCallback((index: number) => {
     const filename = WALKIN_FRAMES[index] || WALKIN_FRAMES[0];
-    return `/frames-walkin/${filename}`;
+    return `/frames/walkin/${filename}`;
   }, []);
 
   // Draw current frame with sharp DPR awareness and object-fit: cover
@@ -145,6 +145,10 @@ export default function ShowroomScrollSequence({
     }
 
     if (!imgToDraw || !imgToDraw.naturalWidth || !imgToDraw.naturalHeight) {
+      return;
+    }
+
+    if (drawnIdx === lastDrawnIndexRef.current && lastDrawnIndexRef.current !== -1) {
       return;
     }
 
@@ -212,7 +216,7 @@ export default function ShowroomScrollSequence({
     requestRender();
   }, [requestRender]);
 
-  // Dedicated single image loader
+  // Dedicated single image loader with asynchronous GPU decoding
   const loadSingleImage = useCallback(
     (index: number): Promise<void> => {
       return new Promise((resolve) => {
@@ -224,9 +228,8 @@ export default function ShowroomScrollSequence({
 
         const img = new Image();
         const url = getFrameUrl(index);
-        img.src = url;
 
-        img.onload = () => {
+        const onDecoded = () => {
           if (isCancelledRef.current) return resolve();
           imagesRef.current[index] = img;
           loadedMapRef.current[index] = true;
@@ -238,21 +241,40 @@ export default function ShowroomScrollSequence({
           resolve();
         };
 
+        img.onload = () => {
+          if ("decode" in img) {
+            img
+              .decode()
+              .then(onDecoded)
+              .catch(() => {
+                onDecoded();
+              });
+          } else {
+            onDecoded();
+          }
+        };
+
         img.onerror = () => {
           resolve();
         };
+
+        img.src = url;
       });
     },
     [getFrameUrl, requestRender]
   );
 
-  // Active download pool state
+  // Active download pool state with proximity sorting
   const activeWorkersRef = useRef<number>(0);
   const downloadQueueRef = useRef<number[]>([]);
 
   const pumpQueue = useCallback(() => {
     if (isCancelledRef.current) return;
-    const CONCURRENT_DOWNLOAD_LIMIT = 3;
+    const CONCURRENT_DOWNLOAD_LIMIT = 5;
+
+    // Dynamically prioritize frames closest to the user's current playhead
+    const current = currentFrameRef.current;
+    downloadQueueRef.current.sort((a, b) => Math.abs(a - current) - Math.abs(b - current));
 
     while (
       activeWorkersRef.current < CONCURRENT_DOWNLOAD_LIMIT &&
@@ -291,7 +313,7 @@ export default function ShowroomScrollSequence({
     [pumpQueue]
   );
 
-  // 1. Initial Page Load: Instant Frame 0 paint + immediate window [1..16] + sparse keyframes
+  // 1. Initial Page Load: Instant Frame 0 paint + immediate window [1..12] + sparse keyframes
   useEffect(() => {
     isCancelledRef.current = false;
 
@@ -300,35 +322,23 @@ export default function ShowroomScrollSequence({
       requestRender();
     });
 
-    // Window 1: Immediate first 16 frames so initial scrub is 100% fluid
+    // Window 1: Immediate first 12 frames so initial scrub is 100% fluid
     const initialWindow: number[] = [];
-    for (let i = 1; i <= Math.min(16, TOTAL_FRAMES - 1); i++) {
+    for (let i = 1; i <= Math.min(12, TOTAL_FRAMES - 1); i++) {
       initialWindow.push(i);
     }
     queueFrames(initialWindow, true);
 
-    // Window 2: Keyframe spine (every 8th frame) across whole sequence
+    // Window 2: Keyframe spine (every 8th frame) across whole sequence (~24 frames total, ~10MB)
+    // Guarantees zero blank flashes and instant fallback even during rapid scrolling
     const keyframes: number[] = [];
-    for (let k = 24; k < TOTAL_FRAMES; k += 8) {
+    for (let k = 16; k < TOTAL_FRAMES; k += 8) {
       keyframes.push(k);
     }
     queueFrames(keyframes, false);
 
-    // Window 3: Background stream remaining frames during idle time
-    const remaining: number[] = [];
-    for (let r = 1; r < TOTAL_FRAMES; r++) {
-      if (r > 16 && r % 8 !== 0) {
-        remaining.push(r);
-      }
-    }
-
-    const idleTimer = setTimeout(() => {
-      queueFrames(remaining, false);
-    }, 400);
-
     return () => {
       isCancelledRef.current = true;
-      clearTimeout(idleTimer);
     };
   }, [loadSingleImage, queueFrames, requestRender]);
 
@@ -382,7 +392,7 @@ export default function ShowroomScrollSequence({
         end: `+=${scrollDistance}`,
         pin: viewportRef.current,
         pinSpacing: true,
-        scrub: 0.5,
+        scrub: true,
         anticipatePin: 1,
         onUpdate: (self) => {
           const progress = Math.min(1, Math.max(0, self.progress));

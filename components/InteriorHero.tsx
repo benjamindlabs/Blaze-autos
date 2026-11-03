@@ -22,11 +22,11 @@ const DEFAULT_TOTAL_FRAMES = 401;
 const DEFAULT_SCROLL_DISTANCE = 4000;
 const CONCURRENT_DOWNLOAD_LIMIT = 3;
 
-/** Default resolver for zero-padded frame paths: /frames-benz/img_00001.jpg .. img_00401.jpg */
+/** Default resolver for zero-padded frame paths: /frames/interior/img_00001.jpg .. img_00401.jpg */
 export const defaultGetFrameUrl = (index: number): string => {
   const frameNumber = index + 1;
   const padded = String(frameNumber).padStart(5, "0");
-  return `/frames-benz/img_${padded}.jpg`;
+  return `/frames/interior/img_${padded}.jpg`;
 };
 
 // React 19 compliant subscription to prefers-reduced-motion
@@ -118,6 +118,9 @@ export default function InteriorHero({
     }
 
     if (!imgToDraw) return;
+    if (drawnIdx === lastDrawnIndexRef.current && lastDrawnIndexRef.current !== -1) {
+      return;
+    }
     lastDrawnIndexRef.current = drawnIdx;
 
     const cw = canvas.width;
@@ -173,7 +176,7 @@ export default function InteriorHero({
     requestRender();
   }, [requestRender]);
 
-  // Dedicated single image loader
+  // Dedicated single image loader with asynchronous GPU decoding
   const loadSingleImage = useCallback(
     (index: number): Promise<void> => {
       return new Promise((resolve) => {
@@ -185,9 +188,8 @@ export default function InteriorHero({
 
         const img = new Image();
         const url = getFrameUrl(index);
-        img.src = url;
 
-        img.onload = () => {
+        const onDecoded = () => {
           if (isCancelledRef.current) return resolve();
           imagesRef.current[index] = img;
           loadedMapRef.current[index] = true;
@@ -199,20 +201,40 @@ export default function InteriorHero({
           resolve();
         };
 
+        img.onload = () => {
+          if ("decode" in img) {
+            img
+              .decode()
+              .then(onDecoded)
+              .catch(() => {
+                onDecoded();
+              });
+          } else {
+            onDecoded();
+          }
+        };
+
         img.onerror = () => {
           resolve();
         };
+
+        img.src = url;
       });
     },
     [totalFrames, getFrameUrl, requestRender]
   );
 
-  // Active download pool state
+  // Active download pool state with proximity sorting
   const activeWorkersRef = useRef<number>(0);
   const downloadQueueRef = useRef<number[]>([]);
 
   const pumpQueue = useCallback(() => {
     if (isCancelledRef.current) return;
+    const CONCURRENT_DOWNLOAD_LIMIT = 5;
+
+    // Dynamically prioritize frames closest to the user's current playhead
+    const current = currentFrameRef.current;
+    downloadQueueRef.current.sort((a, b) => Math.abs(a - current) - Math.abs(b - current));
 
     while (
       activeWorkersRef.current < CONCURRENT_DOWNLOAD_LIMIT &&
@@ -307,27 +329,12 @@ export default function InteriorHero({
     queueFrames(entryWindow, true);
 
     // Window B: Keyframe spine (every 10th frame: 10, 20, 30...)
+    // Preloads ~40 keyframes total across all 401 frames so any rapid scrub has immediate visual fallback
     const keyframes: number[] = [];
     for (let i = 20; i < totalFrames; i += 10) {
       keyframes.push(i);
     }
     queueFrames(keyframes, false);
-
-    // Window C: Remaining frames in idle time
-    const timer = setTimeout(() => {
-      if (isCancelledRef.current) return;
-      const remaining: number[] = [];
-      for (let i = 1; i < totalFrames; i++) {
-        if (!loadedMapRef.current[i]) {
-          remaining.push(i);
-        }
-      }
-      queueFrames(remaining, false);
-    }, 1500);
-
-    return () => {
-      clearTimeout(timer);
-    };
   }, [isLazyTriggered, totalFrames, queueFrames]);
 
   // Handle Resize and DPR changes
@@ -390,10 +397,10 @@ export default function InteriorHero({
           );
 
           if (targetIndex !== currentFrameRef.current) {
-            // Predictive streaming: stream 15 frames ahead in the direction of scroll
+            // Predictive streaming: stream 16 frames ahead in the direction of scroll + 2 behind
             const dir = targetIndex >= currentFrameRef.current ? 1 : -1;
             const streamAhead: number[] = [];
-            for (let i = 1; i <= 15; i++) {
+            for (let i = -2; i <= 16; i++) {
               const idx = targetIndex + i * dir;
               if (idx >= 0 && idx < totalFrames) {
                 streamAhead.push(idx);
